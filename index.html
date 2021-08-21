@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>
+        Java Script Arrays
+    </title>
+</head>
+
+<body>
+    <p> How to Declare Arreys
+        <h4 id="Declaretion_of_Arreys">
+        </h4>
+    </p>
+
+    <p> first Fruit
+        <h4 id="first_Fruit">
+        </h4>
+    </p>
+
+    <p> second Fruit
+        <h4 id="second_Fruit">
+        </h4>
+    </p>
+    <p> third Fruit
+        <h4 id="third_Fruit">
+        </h4>
+    </p>
+
+
+    <script>
+        console.log("Hi I am console screen")
+        var firstname = "Reyaansh"
+        var lastname = "Mishra"
+        console.log(firstname)
+        console.log(lastname)
+        var fullname = firstname.concat(lastname)
+        var length_of_full_name = fullname.length
+        console.log(length_of_full_name)
+        var name1 = "I am Reyaansh Mishra"
+        var replace_name = name1.replace("Reyaansh", "Ridhaan")
+        console.log(replace_name)
+        var makinglowercase = name1.toLowerCase()
+        console.log(makinglowercase)
+        var makinguppercase = name1.toUpperCase()
+        console.log(makinguppercase)
+        var squre_root = Math.sqrt(16)
+        console.log(squre_root)
+        var max_number = Math.max(15, 10)
+        console.log(max_number)
+        var min_number = Math.min(15, 10)
+        console.log(min_number)
+        var power_eg_1 = Math.pow(4, 2)
+        var fruits = ["Mango", "Orange", "Apple"];
+        console.log(fruits);
+        document.getElementById("Declaretion_of_Arreys").innerHTML = fruits
+        var first_Fruit = fruits[0]
+        console.log(first_Fruit)
+        var second_Fruit = fruits[1]
+        console.log(second_Fruit)
+        var third_Fruit = fruits[2]
+        console.log(third_Fruit)
+
+        document.getElementById("first_Fruit").innerHTML = first_Fruit
+
+        document.getElementById("second_Fruit").innerHTML = second_Fruit
+
+        document.getElementById("third_Fruit").innerHTML = third_Fruit
+        console.log(fruits.length)
+        fruits.push("Papaya")
+        console.log(fruits)
+    </script>
+</body>
+
+</html>
